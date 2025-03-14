@@ -1,0 +1,212 @@
+body{
+    background-color: #6e5c62;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.titulo, .cabeca{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.iconetopo{
+    background-color: #6e5c62;
+    border-color: #b7aeb4;
+    color: #b7aeb4;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 2px;
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    margin-top: -40px;
+    transition: 300ms;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#direita{
+    margin-right: 200px;
+}
+.titulo{
+    margin-right: 200px;
+}
+
+.grade{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#contorno{
+    background-color: #6e5c62;
+    border-color: #4c4347;
+    border-style: solid;
+    border-width: 6px;
+    height: 66px;
+    width: 66px;
+}
+#verde{
+    background-color: #39a395;
+}
+#amarelo{
+    background-color: #d3ad69;
+}
+#escuro{
+    background-color: #302a2c;
+}
+#claro{
+    background-color: #594b4f;
+    color: #6e5c62;
+}
+.bloco{
+    background-color: #615458;
+    border-radius: 8px;
+    height: 78px;
+    width: 78px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 44px;
+    margin: 1px;
+    transition: 400ms;
+}
+.teclado{
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-right: 32px;
+}
+.tecla{
+    background-color: #4c4347;
+    border-radius: 7px;
+    height: 70px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 1px;
+    transition: 300ms;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.linha1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.linha2{
+    padding-left: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.linha3{
+    padding-left: 74px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#enter{
+    margin-left: 20px;
+    width: 175px;
+    transition: 300ms;
+}
+#backspace{
+    margin-left: 20px;
+    width: 60px;
+    transition: 300ms;
+}
+
+
+.titulo:hover{
+    cursor: pointer;
+}
+.iconetopo:hover{
+    border-color: #ffffff;
+    color: white;
+    transition: 150ms;
+    cursor: pointer;
+}
+.iconetopo:active{
+    border-color: #ffffff;
+    color: white;
+    transition: 150ms;
+    cursor: pointer;
+    font-size: 15px;
+}
+#verde:hover{
+    border-color: #2a6e65;
+    cursor: pointer;
+    transition: 150ms;
+}
+#contorno:active{
+    border-color: #252123;
+    border-bottom-width: 24px;
+    height: 48px;
+    font-size: 38px;
+}
+#contorno:hover{
+    border-color: #3b3437;
+    cursor: pointer;
+    transition: 150ms;
+}
+#contorno:active{
+    border-color: #252123;
+    cursor: pointer;
+    transition: 150ms;
+}
+.bloco:hover{
+    background-color: #4e4447;
+    cursor: pointer;
+    transition: 150ms;
+}
+.bloco:active{
+    background-color: #352f31;
+    cursor: pointer;
+    transition: 150ms;
+}
+#backspace:hover{
+    background-color: #2e292b;
+    cursor: pointer;
+    transition: 150ms;
+}
+#backspace:active{
+    background-color: #161515;
+    cursor: pointer;
+    transition: 100ms;
+    height: 55px;
+    font-size: 20px;
+}
+#enter:hover{
+    background-color: #2e292b;
+    cursor: pointer;
+    transition: 150ms;
+}
+#enter:active{
+    background-color: #161515;
+    cursor: pointer;
+    transition: 100ms;
+    height: 55px;
+    font-size: 20px;
+}
+.tecla:hover{
+    background-color: #2e292b;
+    cursor: pointer;
+    transition: 150ms;
+}
+.tecla:active{
+    background-color: #161515;
+    cursor: pointer;
+    transition: 100ms;
+    height: 55px;
+    font-size: 18px;
+}
